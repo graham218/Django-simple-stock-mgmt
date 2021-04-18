@@ -1,0 +1,118 @@
+body {
+    background-color: #34eb6b;
+    background-image: url("../img/woman-1446557_1920.jpg");
+    }
+/*Align the title to the center of the page*/
+.table{
+    font-size: 13px;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+}
+
+/*Make alternating colors for the table rows*/
+.table tr:nth-child(odd){
+    background: #09408d
+}
+
+.table tr:nth-child(even){
+    background: #dae5f4
+}
+
+.th{
+    background: #700e34;
+    color: white;
+}
+
+/*Style the div suurounding the table*/
+.display_table{
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+	box-shadow: 12px 12px 20px 6px #2e6da4;
+}
+
+/*Style the div wrapping the header*/
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #337ab7;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+    text-shadow: 6px 6px 6px #7c5b5b;
+    display: block;
+    font-weight: bolder;
+}
+
+/*Styling messages*/
+.success{
+    list-style: none;
+    background-color: #2e6da4;
+    color: white;
+    box-shadow: 12px 12px 12px #e61c66;
+    text-align: center;
+}
+
+/* Version Button */
+#version-display{
+    background-color: #e61c66;
+    color: white;
+    box-shadow: 5px 12px 12px #2e6da4;
+    text-align: center;
+    display: inline;
+    font-weight: bolder;
+    padding: 15px;
+    position: fixed;
+    top: 40px;
+    left: -5px;
+    z-index: 3000;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+ /* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #e61c66;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #e61c66;
+    color: white;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+.dev-info{
+    width: 50%;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: bold;
+    display: inline;
+}
+
+.dev-info-logo{
+    width: 50px;
+    float: left;
+}
